@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0309/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0309/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 感氣十六轉金丹
+  date: '2015-08-29 00:55:51.827444'
+  source:
+    repository: kanripo
+    path: KR5c0309
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0309_000-HFL.yaml, hash: 'sha256:dadf1b1ab4e1b55c8e27028bb762bfe12087bba523e60d928b50afc58d075baf'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0309_000-HFL.markers.yaml, hash: 'sha256:4da5e65d7727aba75c2b0a4a8f3305dd35ad04ad73057b5d3b8ed2b1e8cadb4b'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0309_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2390
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:d487b802b9c6d829c94b692c723b3c0c554f24e39c27cedb16f7461830bababa
